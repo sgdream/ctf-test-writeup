@@ -1,5 +1,6 @@
 ====================<br/>
-<b>这是test01的writeup</b><br/>
+#源代码打包为zip格式  PS:有密码<br/>
+<h2>这是test01的writeup</h2><br/>
 1.首先访问index.php 在查看源代码中可以看见‘find a way to GET flag ’这句注释<br/>
 2.由此联想到 可能是$_GET['flag']<br/>
 3.测试：http://ip/test01/index.php?flag=1  发现出现 '=================' 证明id为flag<br />
